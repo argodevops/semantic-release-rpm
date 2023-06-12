@@ -1,0 +1,6 @@
+{
+    "extends": "@argodevops/eslint-config/node",
+    "rules": {
+        "id-length": ["error", { "min": 2 }]
+    }
+}

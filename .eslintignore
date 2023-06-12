@@ -1,0 +1,11 @@
+*.json
+*.css
+*.md
+*.spec.js
+*.spec.jsx
+webpack.*.js
+*.svg
+esm
+cjs
+*.d.ts
+*.snap
