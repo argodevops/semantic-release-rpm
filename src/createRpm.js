@@ -4,8 +4,10 @@ import { execSync } from 'child_process';
 
 export default (buildDir, repository) => {
     process.chdir(`${buildDir}`);
-    execSync(
-        `rpmbuild --define "_topdir $(pwd)" -bb ./SPECS/${repository}.spec >/dev/null`
-    );
+    const output = execSync(
+        `rpmbuild --define "_topdir $(pwd)" -bb ./SPECS/${repository}.spec`
+    ).toString();
+    /* eslint-disable no-console */
+    console.log(output);
     process.chdir('../');
 };
