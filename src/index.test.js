@@ -1,8 +1,14 @@
 import fs from 'fs';
 
+import removeBuildDir from './removeBuildDir';
+
 import { prepare } from './index';
 
 describe('index', () => {
+    beforeEach(() => {
+        const buildDir = './rpmbuild';
+        removeBuildDir(buildDir);
+    });
     test('should create a rpm', async () => {
         global.console.log = jest.fn();
         expect.assertions(1);
