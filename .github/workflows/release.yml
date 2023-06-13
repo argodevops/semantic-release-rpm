@@ -1,9 +1,9 @@
 name: release
 on:
   push:
-    branches: [ main ]
+    branches: [ main, alpha ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, alpha ]
 
 jobs:
   cache-and-install:
