@@ -10,7 +10,7 @@ describe('index', () => {
         removeBuildDir(buildDir);
     });
     test('should create a rpm', async () => {
-        global.console.log = jest.fn();
+        // global.console.log = jest.fn();
         expect.assertions(1);
 
         const context = {

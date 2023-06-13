@@ -9,5 +9,8 @@ export default (buildDir, repository) => {
     ).toString();
     /* eslint-disable no-console */
     console.log(output);
+    const output2 = execSync(`ls -ltr ./RPMS/x86_64/*`).toString();
+    /* eslint-disable no-console */
+    console.log(`\n\nRPMS = ${output2}\n\n`);
     process.chdir('../');
 };
