@@ -1,5 +1,4 @@
 {
-  
   "name": "@argodevops/semantic-release-rpm",
   "version": "0.0.1",
   "description": "plugin for semantic release to build and publish a rpm",
@@ -60,8 +59,7 @@
   },
   "dependencies": {
     "@semantic-release/error": "^3.0.0",
-    "@semantic-release/git": "^10.0.1",
-    "axios": "^1.4.0"
+    "@semantic-release/git": "^10.0.1"
   },
   "pnpm": {
     "overrides": {

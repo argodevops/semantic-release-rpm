@@ -25,8 +25,25 @@ describe('index', () => {
         };
         prepare(pluginConfig, context);
 
-        const filePath =
-            './rpmbuild/RPMS/x86_64/semantic-release-rpm-test-0.0.3_alpha.1-1.amzn2.x86_64.rpm';
+        const files = fs
+            .readdirSync('./rpmbuild/RPMS/x86_64')
+            .filter(
+                fn =>
+                    fn.startsWith('semantic-release-rpm-test-0.0.3_alpha.1') &&
+                    fn.endsWith('.rpm')
+            )
+            .toString();
+        const filePath = `./rpmbuild/RPMS/x86_64/${files}`;
+
+        // console.log(`\n\nFILES = ${files.toString()}\n\n`);
+        // console.log(`\n\ntypeof FILES = ${typeof files}\n\n`);
+        // console.log(`\n\nFILEPATH = ${filePath}\n\n`);
+
+        // console.log(`existsSync = ${fs.existsSync(filePath)}\n\n`);
+        // console.log(`lstatSync = ${fs.lstatSync(filePath).isFile()}\n\n`);
+
+        // const filePath =
+        //     './rpmbuild/RPMS/x86_64/semantic-release-rpm-test-0.0.3_alpha.1-1.*x86_64.rpm';
         expect(true).toEqual(
             fs.existsSync(filePath) && fs.lstatSync(filePath).isFile()
         );
