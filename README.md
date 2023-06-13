@@ -9,18 +9,17 @@
 {
     plugins: [
         '@argodevops/semantic-release-rpm', {
-            packageName: 'package_one',
-            envKey: 'NOTIFY_URLS'
+            packageName: 'package_name',
+            installationDir: '/opt/my-deployment'
         }
     ]
 }
 ```
 
 ## Config
-- envKey
+- installationDir
     - type: `string`
-    - default: NOTIFY_TEAMS_LIST
-    - The environment variable used to store the comma seperated list of urls to notify
+    - The directory used to install the rpm
 - packageName
     - type: `string`
-    - The name of the package to be used in notification messages
+    - The name of the package to be used
