@@ -46,7 +46,7 @@ export const prepare = (pluginConfig, context) => {
     createRpm(buildDir, repository);
 };
 
-prepare(
-    { packageName: 'semantic-release-rpm', installationDir: '/opt/testrpm' },
-    { nextRelease: { version: '0.0.1-alpha.2' } }
-);
+// prepare(
+//     { packageName: 'semantic-release-rpm', installationDir: '/opt/testrpm' },
+//     { nextRelease: { version: '0.0.1-alpha.2' } }
+// );
