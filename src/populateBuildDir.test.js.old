@@ -1,0 +1,17 @@
+import populateBuildDir from './populateBuildDir';
+import removeBuildDir from './removeBuildDir';
+
+describe('populateBuildDir', () => {
+    beforeEach(() => {
+        const sourceOutput = './sourceOutput';
+        removeBuildDir(sourceOutput);
+    });
+    test('should copy source directory to target directory', async () => {
+        populateBuildDir('./test/populateBuildDir', './sourceOutput');
+        
+    });
+});
+
+    // const source = '.';
+    // const target = `rpmbuild/BUILD/${repository}-${version}/`;
+
