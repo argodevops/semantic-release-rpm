@@ -1,3 +1,10 @@
+# [1.0.0-alpha.4](https://github.com/argodevops/semantic-release-rpm/compare/v1.0.0-alpha.3...v1.0.0-alpha.4) (2023-06-14)
+
+
+### Bug Fixes
+
+* 🐛 test build ([95f4fb0](https://github.com/argodevops/semantic-release-rpm/commit/95f4fb05da2b6b7cf32aae5b631a0bdaeb9a6480))
+
 # [1.0.0-alpha.3](https://github.com/argodevops/semantic-release-rpm/compare/v1.0.0-alpha.2...v1.0.0-alpha.3) (2023-06-14)
 
 
