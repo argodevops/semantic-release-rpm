@@ -13,6 +13,9 @@
     "pretty": "prettier --write \"src/**/*.{js*,ts}\"",
     "prepare": "is-ci || husky install"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/argodevops/semantic-release-rpm.git"
