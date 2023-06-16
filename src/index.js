@@ -44,12 +44,11 @@ const prepare = (pluginConfig, context) => {
 };
 
 const publish = (pluginConfig, context) => {
-    // const repository = pluginConfig?.packageName;
-    // const installationDir = pluginConfig?.installationDir;
+    const repository = pluginConfig?.packageName;
     const { nextRelease } = context;
     const version = adjustVersionIfAlpha(nextRelease.version);
 
-    copyRpmToS3(buildDir, version);
+    copyRpmToS3(buildDir, repository, version);
 };
 
 export { prepare, publish };

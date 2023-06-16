@@ -9,6 +9,9 @@ overrides:
   debug@<3.1.0: '>=3.1.0'
 
 dependencies:
+  '@argodevops/semantic-release-rpm':
+    specifier: 1.0.0-alpha.4
+    version: 1.0.0-alpha.4(semantic-release@20.1.3)
   '@semantic-release/error':
     specifier: ^3.0.0
     version: 3.0.0
@@ -118,6 +121,16 @@ packages:
       - prettier
       - supports-color
     dev: true
+
+  /@argodevops/semantic-release-rpm@1.0.0-alpha.4(semantic-release@20.1.3):
+    resolution: {integrity: sha512-/GtdBMuHFfe+bcA2fdHbMsbbAMJUJsuVjMzhevgVkYSk4Q9tZJJUfR9U0UJhfb/Xy1i5/TzViEzqDWUh4JiYTg==}
+    dependencies:
+      '@semantic-release/error': 3.0.0
+      '@semantic-release/git': 10.0.1(semantic-release@20.1.3)
+    transitivePeerDependencies:
+      - semantic-release
+      - supports-color
+    dev: false
 
   /@argodevops/semantic-release-teams@1.0.16(semantic-release@20.1.3):
     resolution: {integrity: sha512-of9AoYAveXPnWluqeSglXfaCJoCUd2E/wzt7rRB/PpYFbaeJFoeYtjtQ5vRHcjQt5b0wt4mCAv/eJzlzk4ZJ3g==}

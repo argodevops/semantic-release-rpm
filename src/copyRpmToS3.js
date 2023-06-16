@@ -1,12 +1,12 @@
 import { execSync } from 'child_process';
 import { readdirSync } from 'fs';
 
-export default (buildDir, version) => {
+export default (buildDir, repository, version) => {
     process.chdir(`${buildDir}/RPMS/x86_64`);
     const rpmName = readdirSync('.')
         .filter(
             fn =>
-                fn.startsWith(`semantic-release-rpm-test-${version}`) &&
+                fn.startsWith(`${repository}-${version}`) &&
                 fn.endsWith('.rpm')
         )
         .toString();
