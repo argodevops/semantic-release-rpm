@@ -1,6 +1,6 @@
 {
   "name": "@argodevops/semantic-release-rpm",
-  "version": "1.0.0-alpha.7",
+  "version": "1.0.0-alpha.8",
   "description": "plugin for semantic release to build and publish a rpm",
   "source": "src/index.js",
   "main": "dist/index.js",
