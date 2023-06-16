@@ -20,7 +20,7 @@ const checkConfig = (configEntry, value) => {
 
 const buildDir = './rpmbuild';
 
-export const prepare = (pluginConfig, context) => {
+const prepare = (pluginConfig, context) => {
     const repository = pluginConfig?.packageName;
     const installationDir = pluginConfig?.installationDir;
     const { nextRelease } = context;
@@ -43,7 +43,7 @@ export const prepare = (pluginConfig, context) => {
     createRpm(buildDir, repository);
 };
 
-export const publish = (pluginConfig, context) => {
+const publish = (pluginConfig, context) => {
     // const repository = pluginConfig?.packageName;
     // const installationDir = pluginConfig?.installationDir;
     const { nextRelease } = context;
@@ -51,3 +51,5 @@ export const publish = (pluginConfig, context) => {
 
     copyRpmToS3(buildDir, version);
 };
+
+export { prepare, publish };
