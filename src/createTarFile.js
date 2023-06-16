@@ -4,7 +4,6 @@ import { execSync } from 'child_process';
 
 export default (buildDir, repository, version) => {
     process.chdir(`${buildDir}/BUILD`);
-    // execSync("cd ./rpmbuild/BUILD; tar -czvf ../SOURCES/" + repository + "-" + version + ".tar.gz ./" + repository + "-" + version + "/ >/dev/null");
     execSync(
         `tar -czvf ../SOURCES/${repository}-${version}.tar.gz ./${repository}-${version}/ >/dev/null`
     );

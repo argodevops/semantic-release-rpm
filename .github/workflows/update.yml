@@ -54,4 +54,4 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "fix: dependecy updates"
+          commit_message: "fix: dependency updates"
