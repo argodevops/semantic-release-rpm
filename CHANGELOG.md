@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/argodevops/semantic-release-rpm/compare/v1.0.0...v1.0.1) (2023-06-16)
+
+
+### Bug Fixes
+
+* 🐛 Added repository to s3 cp ([ef653a3](https://github.com/argodevops/semantic-release-rpm/commit/ef653a374e4ba00b53ecda5330ee0a12498337ec))
+* build2 ([232f459](https://github.com/argodevops/semantic-release-rpm/commit/232f45932fa3e8e7928595b35bab7ce615d9d91e))
+
 # 1.0.0 (2023-06-16)
 
 
