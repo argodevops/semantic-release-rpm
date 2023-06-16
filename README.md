@@ -19,7 +19,7 @@
 ## Config
 - installationDir
     - type: `string`
-    - The directory used to install the rpm
+    - The directory used to install the rpm.
 - packageName
     - type: `string`
-    - The name of the package to be used
+    - The name of the package to be used.
