@@ -6,8 +6,7 @@ export default (buildDir, repository, version) => {
     const rpmName = readdirSync('.')
         .filter(
             fn =>
-                fn.startsWith(`${repository}-${version}`) &&
-                fn.endsWith('.rpm')
+                fn.startsWith(`${repository}-${version}`) && fn.endsWith('.rpm')
         )
         .toString();
 
