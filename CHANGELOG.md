@@ -1,3 +1,13 @@
+## [1.0.2](https://github.com/argodevops/semantic-release-rpm/compare/v1.0.1...v1.0.2) (2023-06-19)
+
+
+### Bug Fixes
+
+* 🐛 Final changes ([a726805](https://github.com/argodevops/semantic-release-rpm/commit/a72680527a03131a753bec7150552d6f1fd38407))
+* dependency updates ([5d9fc03](https://github.com/argodevops/semantic-release-rpm/commit/5d9fc0377342c0a76ef9fadb45a73a2ab0851021))
+* dependency updates ([6a3e2ee](https://github.com/argodevops/semantic-release-rpm/commit/6a3e2ee54f37a5d4547f92aa8bc094c3f40c097b))
+* dependency updates ([02f046e](https://github.com/argodevops/semantic-release-rpm/commit/02f046e24885c02620f7d5167098e67cc9729950))
+
 ## [1.0.1](https://github.com/argodevops/semantic-release-rpm/compare/v1.0.0...v1.0.1) (2023-06-16)
 
 
