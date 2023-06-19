@@ -65,7 +65,7 @@
   },
   "dependencies": {
     "@argodevops/semantic-release-rpm": "1.0.0-alpha.4",
-    "@semantic-release/error": "^3.0.0",
+    "@semantic-release/error": "^4.0.0",
     "@semantic-release/git": "^10.0.1"
   },
   "pnpm": {
