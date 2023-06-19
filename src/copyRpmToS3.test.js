@@ -26,7 +26,7 @@ describe('index', () => {
         const filePath2 = `${buildDir}/RPMS/x86_64/semantic-release-rpm-test-0.0.3_alpha.1.xsx`;
         closeSync(openSync(filePath2, 'w'));
 
-        copyRpmToS3('./rpmbuild', '0.0.3_alpha.1');
+        copyRpmToS3('./rpmbuild', 'semantic-release-rpm-test', '0.0.3_alpha.1');
         expect(cpExecSpy).toBeCalledTimes(1);
     });
 });

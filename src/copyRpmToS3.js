@@ -11,6 +11,6 @@ export default (buildDir, repository, version) => {
         .toString();
 
     execSync(
-        `aws s3 cp ${rpmName} s3://rpm-deployment-storage-valley/valley-deployment/${version}/${rpmName}`
+        `aws s3 cp ${rpmName} s3://rpm-deployment-storage-valley/${repository}/${version}/${rpmName}`
     );
 };
