@@ -2259,7 +2259,7 @@ packages:
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.9.3
       browserslist: 4.21.9
-      lightningcss: 1.21.2
+      lightningcss: 1.21.3
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -2544,7 +2544,7 @@ packages:
       '@parcel/source-map': 2.1.1
       '@parcel/utils': 2.9.3
       browserslist: 4.21.9
-      lightningcss: 1.21.2
+      lightningcss: 1.21.3
       nullthrows: 1.1.1
     transitivePeerDependencies:
       - '@parcel/core'
@@ -3666,8 +3666,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001510
-      electron-to-chromium: 1.4.447
+      caniuse-lite: 1.0.30001511
+      electron-to-chromium: 1.4.448
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
     dev: true
@@ -3727,8 +3727,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /caniuse-lite@1.0.30001510:
-    resolution: {integrity: sha512-z35lD6xjHklPNgjW4P68R30Er5OCIZE0C1bUf8IMXSh34WJYXfIy+GxIEraQXYJ2dvTU8TumjYAeLrPhpMlsuw==}
+  /caniuse-lite@1.0.30001511:
+    resolution: {integrity: sha512-NaWPJawcoedlghN4P7bDNeADD7K+rZaY6V8ZcME7PkEZo/nfOg+lnrUgRWiKbNxcQ4/toFKSxnS4WdbyPZnKkw==}
     dev: true
 
   /cardinal@2.1.1:
@@ -4295,8 +4295,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: true
 
-  /electron-to-chromium@1.4.447:
-    resolution: {integrity: sha512-sxX0LXh+uL41hSJsujAN86PjhrV/6c79XmpY0TvjZStV6VxIgarf8SRkUoUTuYmFcZQTemsoqo8qXOGw5npWfw==}
+  /electron-to-chromium@1.4.448:
+    resolution: {integrity: sha512-fHtoB4KThQZ+kPs/VE2fq+EFAI7RXTWRy7DeRqVo0iFQ7NpXtqiZ++1gHfvnsTbbbV/MXdgeykxZLnLD2yHKCg==}
     dev: true
 
   /emittery@0.13.1:
@@ -6341,8 +6341,8 @@ packages:
       type-check: 0.4.0
     dev: true
 
-  /lightningcss-darwin-arm64@1.21.2:
-    resolution: {integrity: sha512-uh2+MUWWc6rQpMfD3YoIRRxxRaUdhJSI3zeq7EXWQI4pDFcgV8LxGq6yfyMB0cJT1Hh55elQHM3Y139YJrhHFQ==}
+  /lightningcss-darwin-arm64@1.21.3:
+    resolution: {integrity: sha512-s6ZUqUD1ZIIE0bYk/DrBhw1LAk4UGXoKDK/y2jU26jeIDYbsB3yDRi2y4zJ+4xccShzWucaQG4g0+NAAHL0soQ==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [darwin]
@@ -6350,8 +6350,8 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss-darwin-x64@1.21.2:
-    resolution: {integrity: sha512-Qv+Tra9p+Lqw4o3XMrDOJBWz5HhNueFHPG+AZMatyQKyWIVKTxDtW9/J7J7J8I2PE26UeLhlQE26ych5PGAp4Q==}
+  /lightningcss-darwin-x64@1.21.3:
+    resolution: {integrity: sha512-biYATnAiuIWDwlrUE3LE5p21Eyyft72qf5o6V7AKYrGyE2/6tn/10Wb4K2GgNHm2vwNtWiPSqntptqzxsUj6lQ==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [darwin]
@@ -6359,8 +6359,8 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss-linux-arm-gnueabihf@1.21.2:
-    resolution: {integrity: sha512-83KqiPvvOuAocrUyuV+V3peLe5cfBZRHV312vSJq/OGluHzeg2meb36q73q1gIcz/qX9RdAcx6GlhZ/vwbGpnQ==}
+  /lightningcss-linux-arm-gnueabihf@1.21.3:
+    resolution: {integrity: sha512-8CjgX7vXF8ue1ran+4Gs1Bs0URIklvuBUsLPBUwFbLZq+lvDd+kmfTWMRNYUpZ9CyVzsInzmLBvWskaRLrR/wA==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm]
     os: [linux]
@@ -6368,8 +6368,8 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss-linux-arm64-gnu@1.21.2:
-    resolution: {integrity: sha512-YAFPWM8Wi2UXIf382aDGxx0/zxOROZ7ADTBi8coXmI5FjDqUjxypc4U9+o962oi3k/N3K6IaL2f/E172+Xj0vA==}
+  /lightningcss-linux-arm64-gnu@1.21.3:
+    resolution: {integrity: sha512-iPGYDw8lSkOSqtsDMeom29jpk4Ou6cKnayQBRzYJeGHzEfDGMPtKjCUJc9n425iCuMXc92qF8YqHEwndD4W+rA==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
@@ -6377,8 +6377,8 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss-linux-arm64-musl@1.21.2:
-    resolution: {integrity: sha512-dTIaIbOgo/mYzkEi2ESI9+ciZz7un8G0AxiM8E8lrkelm3lgTnSO/4fWaEfx+u9LsVM7dgAN5cfiDBQCr2koYA==}
+  /lightningcss-linux-arm64-musl@1.21.3:
+    resolution: {integrity: sha512-UIfZrGUHWEdjDXa/lGjG7YaPsS7OURfqazblwvrQIODXKg8K32qMk0lzcvPFSBae8upRt4NE5DFKypbENI4xng==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
@@ -6386,8 +6386,8 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss-linux-x64-gnu@1.21.2:
-    resolution: {integrity: sha512-xFieDlPN2cfoVKVBg5XLyxvIAJPw2J3njlOFUQOJEDbLbp+qI8hgxqz34dlI/zZMq4Dmzroc7LPB/MengYjYHQ==}
+  /lightningcss-linux-x64-gnu@1.21.3:
+    resolution: {integrity: sha512-tKxRs1Kc02tLBzcnzh1sqafPFKzhYMa4Qgvl4ceN7KH64FG2JEFfRaLDhLe4RhsGKp7NXejHzPjwXAKxW//XcQ==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
@@ -6395,8 +6395,8 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss-linux-x64-musl@1.21.2:
-    resolution: {integrity: sha512-1w+oiZY3H1V/5FxpvtEUXHBZFuAPzUFoFolpDKNDphr9h9xPo3xc2eg3zuz96ia+tb2QmBB5S3QZrQ/dGGc8GA==}
+  /lightningcss-linux-x64-musl@1.21.3:
+    resolution: {integrity: sha512-9xQ8B6en2lHqR3Iu7W4PdV7914zBQ18Z+LxDveUzfqCiSCN79Y+4JPpNVYJ9DipUERjWKz0k7wQeEUOXpPy8qA==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
@@ -6404,8 +6404,8 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss-win32-x64-msvc@1.21.2:
-    resolution: {integrity: sha512-NzuZx5gH7H6Me7h88Boil0vhIqs5+kQ8K2B6ZYQAllj8yk0zCs4cqOLUxXmm6fiykRxCzdRPcEP8ZYvbBCcGgw==}
+  /lightningcss-win32-x64-msvc@1.21.3:
+    resolution: {integrity: sha512-jKRLakWIuC2gBH79ePIOoQ6iZYbW6tTZ6NJ6l/7zR2afhz0qfFkDsfxFHhUC6LHjrzRtDrbPkaj5+FuqbCjJJw==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [win32]
@@ -6413,20 +6413,20 @@ packages:
     dev: true
     optional: true
 
-  /lightningcss@1.21.2:
-    resolution: {integrity: sha512-6GoGcH4CHGLN6hq5lcmtkKxolXw8nsmgoaYsy6AilwH0vS0GUpKlgFegaf7LmDZqxawjV6LmymQFBZYe+sS45w==}
+  /lightningcss@1.21.3:
+    resolution: {integrity: sha512-15I4wc2jLMpzP4OW71UIR1PmRlOliW6ol2EQQTz1kgG7Y8uKo+c7MUMWhBCO1GCmv4G/YHZlOq5Iw3PyhylgUw==}
     engines: {node: '>= 12.0.0'}
     dependencies:
       detect-libc: 1.0.3
     optionalDependencies:
-      lightningcss-darwin-arm64: 1.21.2
-      lightningcss-darwin-x64: 1.21.2
-      lightningcss-linux-arm-gnueabihf: 1.21.2
-      lightningcss-linux-arm64-gnu: 1.21.2
-      lightningcss-linux-arm64-musl: 1.21.2
-      lightningcss-linux-x64-gnu: 1.21.2
-      lightningcss-linux-x64-musl: 1.21.2
-      lightningcss-win32-x64-msvc: 1.21.2
+      lightningcss-darwin-arm64: 1.21.3
+      lightningcss-darwin-x64: 1.21.3
+      lightningcss-linux-arm-gnueabihf: 1.21.3
+      lightningcss-linux-arm64-gnu: 1.21.3
+      lightningcss-linux-arm64-musl: 1.21.3
+      lightningcss-linux-x64-gnu: 1.21.3
+      lightningcss-linux-x64-musl: 1.21.3
+      lightningcss-win32-x64-msvc: 1.21.3
     dev: true
 
   /lines-and-columns@1.2.4:
@@ -6440,7 +6440,7 @@ packages:
       msgpackr: 1.8.5
       node-addon-api: 4.3.0
       node-gyp-build-optional-packages: 5.0.6
-      ordered-binary: 1.4.0
+      ordered-binary: 1.4.1
       weak-lru-cache: 1.2.2
     optionalDependencies:
       '@lmdb/lmdb-darwin-arm64': 2.7.11
@@ -7071,8 +7071,8 @@ packages:
       wcwidth: 1.0.1
     dev: true
 
-  /ordered-binary@1.4.0:
-    resolution: {integrity: sha512-EHQ/jk4/a9hLupIKxTfUsQRej1Yd/0QLQs3vGvIqg5ZtCYSzNhkzHoZc7Zf4e4kUlDaC3Uw8Q/1opOLNN2OKRQ==}
+  /ordered-binary@1.4.1:
+    resolution: {integrity: sha512-9LtiGlPy982CsgxZvJGNNp2/NnrgEr6EAyN3iIEP3/8vd3YLgAZQHbQ75ZrkfBRGrNg37Dk3U6tuVb+B4Xfslg==}
     dev: true
 
   /os-tmpdir@1.0.2:
