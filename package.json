@@ -42,7 +42,7 @@
     "@parcel/config-default": "^2.9.3",
     "@parcel/transformer-js": "^2.9.3",
     "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^10.0.1",
+    "@semantic-release/commit-analyzer": "^13.0.0",
     "@semantic-release/npm": "^10.0.4",
     "@semantic-release/release-notes-generator": "^11.0.4",
     "@types/jest": "^29.5.3",
