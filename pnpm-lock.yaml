@@ -57,8 +57,8 @@ importers:
         specifier: ^29.5.3
         version: 29.5.3
       axios-mock-adapter:
-        specifier: ^1.21.5
-        version: 1.21.5(axios@1.4.0)
+        specifier: ^2.1.0
+        version: 2.1.0(axios@1.4.0)
       babel-jest:
         specifier: ^29.6.2
         version: 29.7.0(@babel/core@7.22.10)
@@ -79,7 +79,7 @@ importers:
         version: 3.0.1
       jest:
         specifier: ^29.6.2
-        version: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))
+        version: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))
       parcel:
         specifier: ^2.9.3
         version: 2.9.3(@swc/helpers@0.5.1)(srcset@4.0.0)
@@ -1693,8 +1693,8 @@ packages:
     resolution: {integrity: sha512-zIURGIS1E1Q4pcrMjp+nnEh+16G56eG/MUllJH8yEvw7asDo7Ac9uhC9KIH5jzpITueEZolfYglnCGIuSBz39g==}
     engines: {node: '>=4'}
 
-  axios-mock-adapter@1.21.5:
-    resolution: {integrity: sha512-5NI1V/VK+8+JeTF8niqOowuysA4b8mGzdlMN/QnTnoXbYh4HZSNiopsDclN2g/m85+G++IrEtUdZaQ3GnaMsSA==}
+  axios-mock-adapter@2.1.0:
+    resolution: {integrity: sha512-AZUe4OjECGCNNssH8SOdtneiQELsqTsat3SQQCWLPjN436/H+L9AjWfV7bF+Zg/YL9cgbhrz5671hoh+Tbn98w==}
     peerDependencies:
       axios: '>= 0.17.0'
 
@@ -5720,12 +5720,12 @@ snapshots:
       '@types/node': 20.4.7
       chalk: 4.1.2
       cosmiconfig: 8.2.0
-      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))(typescript@5.1.6)
+      cosmiconfig-typescript-loader: 4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))(typescript@5.1.6)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
       resolve-from: 5.0.0
-      ts-node: 10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6)
+      ts-node: 10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6)
       typescript: 5.1.6
     transitivePeerDependencies:
       - '@swc/core'
@@ -5806,7 +5806,7 @@ snapshots:
       jest-util: 29.7.0
       slash: 3.0.0
 
-  '@jest/core@29.6.2(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))':
+  '@jest/core@29.6.2(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))':
     dependencies:
       '@jest/console': 29.6.2
       '@jest/reporters': 29.6.2
@@ -5820,7 +5820,7 @@ snapshots:
       exit: 0.1.2
       graceful-fs: 4.2.11
       jest-changed-files: 29.5.0
-      jest-config: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))
+      jest-config: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))
       jest-haste-map: 29.6.2
       jest-message-util: 29.6.2
       jest-regex-util: 29.4.3
@@ -7126,7 +7126,7 @@ snapshots:
 
   axe-core@4.7.2: {}
 
-  axios-mock-adapter@1.21.5(axios@1.4.0):
+  axios-mock-adapter@2.1.0(axios@1.4.0):
     dependencies:
       axios: 1.4.0
       fast-deep-equal: 3.1.3
@@ -7509,7 +7509,7 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))(typescript@5.1.6):
+  cosmiconfig-typescript-loader@4.4.0(@types/node@20.4.7)(cosmiconfig@8.2.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))(typescript@5.1.6):
     dependencies:
       '@types/node': 20.4.7
       cosmiconfig: 8.2.0
@@ -8785,16 +8785,16 @@ snapshots:
       - babel-plugin-macros
       - supports-color
 
-  jest-cli@29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6)):
+  jest-cli@29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6)):
     dependencies:
-      '@jest/core': 29.6.2(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))
+      '@jest/core': 29.6.2(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))
       '@jest/test-result': 29.6.2
       '@jest/types': 29.6.1
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.11
       import-local: 3.1.0
-      jest-config: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))
+      jest-config: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))
       jest-util: 29.6.2
       jest-validate: 29.6.2
       prompts: 2.4.2
@@ -8805,7 +8805,7 @@ snapshots:
       - supports-color
       - ts-node
 
-  jest-config@29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6)):
+  jest-config@29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6)):
     dependencies:
       '@babel/core': 7.22.10
       '@jest/test-sequencer': 29.6.2
@@ -9085,12 +9085,12 @@ snapshots:
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
-  jest@29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6)):
+  jest@29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6)):
     dependencies:
-      '@jest/core': 29.6.2(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))
+      '@jest/core': 29.6.2(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))
       '@jest/types': 29.6.1
       import-local: 3.1.0
-      jest-cli: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6))
+      jest-cli: 29.6.2(@types/node@20.5.0)(ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6))
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
@@ -10339,27 +10339,6 @@ snapshots:
   traverse@0.6.7: {}
 
   trim-newlines@3.0.1: {}
-
-  ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.4.7)(typescript@5.1.6):
-    dependencies:
-      '@cspotcode/source-map-support': 0.8.1
-      '@tsconfig/node10': 1.0.9
-      '@tsconfig/node12': 1.0.11
-      '@tsconfig/node14': 1.0.3
-      '@tsconfig/node16': 1.0.4
-      '@types/node': 20.4.7
-      acorn: 8.10.0
-      acorn-walk: 8.2.0
-      arg: 4.1.3
-      create-require: 1.1.1
-      diff: 4.0.2
-      make-error: 1.3.6
-      typescript: 5.1.6
-      v8-compile-cache-lib: 3.0.1
-      yn: 3.1.1
-    optionalDependencies:
-      '@swc/core': 1.3.77(@swc/helpers@0.5.1)
-    optional: true
 
   ts-node@10.9.1(@swc/core@1.3.77(@swc/helpers@0.5.1))(@types/node@20.5.0)(typescript@5.1.6):
     dependencies:
